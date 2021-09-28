@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Regular.eot');
+	src: local('Roboto'), local('Roboto'),
+		url('fonts/Roboto-Regular.woff'),
+    url('fonts/Roboto-Regular.woff2'),
+		url('fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Extrabold.eot');
+	src: local('Gilroy'), local('Gilroy'),
+		url('fonts/Gilroy-Extrabold.woff'),
+    url('fonts/Gilroy-Extrabold.woff2'),
+		url('fonts/Gilroy-Extrabold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-ExtraBold.eot');
+	src: local('Montserrat'), local('Montserrat'),
+		url('fonts/Montserrat-ExtraBold.woff'),
+    url('fonts/Montserrat-ExtraBold.woff2'),
+		url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Black.eot');
+	src: local('Montserrat'), local('Montserrat'),
+		url('fonts/Montserrat-Black.woff'),
+    url('fonts/Montserrat-Black.woff2'),
+		url('fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Bold.eot');
+	src: local('Montserrat'), local('Montserrat'),
+		url('fonts/Montserrat-Bold.woff'),
+    url('fonts/Montserrat-Bold.woff2'),
+		url('fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Medium.eot');
+	src: local('Montserrat'), local('Montserrat'),
+		url('fonts/Montserrat-Medium.woff'),
+    url('fonts/Montserrat-Medium.woff2'),
+		url('fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-SemiBold.eot');
+	src: local('Montserrat'), local('Montserrat'),
+		url('fonts/Montserrat-SemiBold.woff'),
+    url('fonts/Montserrat-SemiBold.woff2'),
+		url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
