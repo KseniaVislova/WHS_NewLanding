@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Roboto&display=swap');
-
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;*/
-
-* {
-  border: 1px dashed red;
-}
-
 body {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 1.25em;
   font-weight: 800;
+  color: #585858;
 }
 
 .container {
@@ -34,9 +26,12 @@ a {
 }
 
 .btn {
+  font-weight: 800;
   color: #fff;
   background-color: #330099;
+  border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .header {
@@ -44,12 +39,19 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  border-top: 3px solid #330099;
+  border-bottom: 3px solid #330099;
 }
 
 .header__nav {
   margin-right: 43px;
   display: flex;
   align-items: center;
+}
+
+.header__link {
+  font-family: 'Gilroy', sans-serif;
+  color: #585858;
 }
 
 .header__link:not(:last-child) {
@@ -62,6 +64,10 @@ a {
 
 .hero {
   padding: 150px 0;
+  background-color: #FFDA45;
+  background-image: url('/img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__content {
@@ -70,17 +76,29 @@ a {
 }
 
 .hero__title {
+  align-self: flex-end;
+  width: 45%;
   margin: 0 0 8px 0;
+  font-weight: 900;
+  line-height: 49px;
   text-align: right;
+  color: #330099;
 }
 
 .hero__description {
+  align-self: flex-end;
+  width: 30%;
   margin: 0;
-  text-align: right; 
+  font-size: 1.9rem;
+  line-height: 1.2em;
+  font-weight: 700;
+  text-align: right;
+  color: #fff; 
 }
 
 .features {
   padding: 90px 0;
+  background-color: #F9F9F9;
 }
 
 .features__content {
@@ -90,6 +108,9 @@ a {
 
 .features__title {
   margin: 0 0 50px 0;
+  font-size: 1.9rem;
+  line-height: 1.2em;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -109,8 +130,33 @@ a {
   margin-right: 90px;
 }
 
+.features__icon {
+  display: block;
+  margin: 0  auto 30px;
+  width: 85px;
+  height: 85px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.features__item:nth-child(1) .features__icon {
+  background-image: url('/img/f-1.svg');
+}
+
+.features__item:nth-child(2) .features__icon {
+  background-image: url('/img/f-2.svg');
+}
+
+.features__item:nth-child(3) .features__icon {
+  background-image: url('/img/f-3.svg');
+}
+
 .features__subtitle {
   margin: 0 0 10px 0;
+  font-size: 1.9rem;
+  line-height: 1.2em;
+  font-weight: 900;
   text-align: center;
 }
 
