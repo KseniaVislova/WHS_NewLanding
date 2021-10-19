@@ -14,6 +14,11 @@
 <body>
   <div class="container">
     <header class="header">
+      <button class="header__btn-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav class="header__nav">
         <a class="header__link" href="#">Мои навыки</a>
         <a class="header__link" href="#">Оставить заявку</a>
@@ -25,8 +30,8 @@
     <section class="hero">
       <div class="wrapper">
         <div class="hero__content">
-          <h1 class="hero__title">Разработка сайтов, игр и приложений</h1>
-          <p class="hero__description">Помогаю воплощать
+          <h1 class="hero__title"><span>Разработка сайтов,</span> игр и приложений</h1>
+          <p class="hero__description"><span>Помогаю воплощать</span>
             мечты в реальность</p>
         </div>
 
@@ -61,9 +66,9 @@
               <span class="features__icon"></span>
               <h3 class="features__subtitle">Отличный
                 результат!</h3>
-              <p class="features__description">Я внимательно работаю<br>
-                над каждым проектом.<br>
-                Я очень люблю свою работу,<br>
+              <p class="features__description"><span>Я внимательно</span> работаю
+                над каждым проектом.
+                Я очень люблю свою работу,
                 поэтому вас обрадует результат
                 проделанной работы.</p>
             </li>
@@ -78,17 +83,17 @@
       <div class="wrapper">
         <h2 class="skills__title">Что я могу</h2>
         <ul class="skills__list">
-          <li class="skills__item">
+          <li class="skills__item" id="item1">
             <span class="skills__icon"></span>
             <div class="skills__content">
               <h3 class="skills__subtitle">Я умею писать валидный<br>
-                и семмантически верный код<br>
-                для вашего сайта или приложения</h3>
-              <p class="skills__description">Ваш сайт и приложение будут<br>
+                и семмантически верный <span>код
+                  для вашего сайта или приложения</span></h3>
+              <p class="skills__description">Ваш сайт и приложение будут
                 верно работать, благодаря моей верстке</p>
             </div>
           </li>
-          <li class="skills__item">
+          <li class="skills__item skills__hidden" id="item2">
             <span class="skills__icon"></span>
             <div class="skills__content">
               <h3 class="skills__subtitle">Я умею создавать игры<br>
@@ -97,7 +102,7 @@
                 и могу “оживить” ваш сайт и приложение</p>
             </div>
           </li>
-          <li class="skills__item">
+          <li class="skills__item skills__hidden" id="item3">
             <span class="skills__icon"></span>
             <div class="skills__content">
               <h3 class="skills__subtitle">Я умею создавать приложения<br>
@@ -108,6 +113,11 @@
             </div>
           </li>
         </ul>
+        <div class="skill__btns">
+          <span class="active" id="btn1"></span>
+          <span id="btn2"></span>
+          <span id="btn3"></span>
+        </div>
       </div>
     </section>
 
@@ -125,7 +135,7 @@
     </section>
 
     <footer class="footer">
-      <p class="footer__text">Меня можно найти в социальных сетях:</p>
+      <p class="footer__text"><span>Меня можно</span> найти в социальных сетях:</p>
       <ul class="footer__list">
         <li class="footer__item"><a href="#" class="footer__link linkedin"></a></li>
         <li class="footer__item"><a href="#" class="footer__link instagram"></a></li>
@@ -135,6 +145,7 @@
     </footer>
   </div>
 
+  <script src="main.js"></script>
 </body>
 
 </html>
