@@ -6,109 +6,154 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Разработка сайтов, игр и приложений</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header">
-    <nav class="header__nav">
-      <a href="#">Мои навыки</a>
-      <a href="#">Оставить заявку</a>
-    </nav>
-    <button class="header__btn btn">Позвонить</button>
-  </header>
+  <div class="container">
+    <header class="header" data-aos="zoom-in-down" data-aos-duration="1500">
+      <button class="header__btn-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav">
+        <a class="header__link" href="#">Мои навыки</a>
+        <a class="header__link" href="#">Оставить заявку</a>
+      </nav>
+      <button class="header__btn btn">Позвонить</button>
 
-  <section class="hero">
-    <h1 class="hero__title">Разработка сайтов, игр и приложений</h1>
-    <p class="hero__description">Помогаю воплощать
-      мечты в реальность</p>
-  </section>
+    </header>
 
-  <section class="features">
-    <h2 class="features__title">Почему вам стоит обратиться ко мне</h2>
-    <ul class="features__list">
-      <li class="features__item">
-        <span class="features__icon"></span>
-        <h3 class="features__subtitle">Индивидуальный
-          подход</h3>
-        <p class="features__description">Каждый клиент
-          для меня особенный.
-          Я тщательно изучаю
-          что ему необходимо, прежде,
-          чем приступить к работе.</p>
-      </li>
-      <li class="features__item">
-        <span class="features__icon"></span>
-        <h3 class="features__subtitle">Разумные
-          цены</h3>
-        <p class="features__description">Я предлагаю выгодные цены
-          за безупречное выполнение
-          работы и соблюдение сроков.</p>
-      </li>
-      <li class="features__item">
-        <span class="features__icon"></span>
-        <h3 class="features__subtitle">Отличный
-          результат!</h3>
-        <p class="features__description">Я внимательно работаю
-          над каждым проектом.
-          Я очень люблю свою работу,
-          поэтому вас обрадует результат
-          проделанной работы.</p>
-      </li>
-    </ul>
-    <button class="btn features__btn">Получить консультацию</button>
-  </section>
+    <section class="hero" data-aos="fade-right" data-aos-duration="1500">
+      <div class="wrapper">
+        <div class="hero__content">
+          <h1 class="hero__title" data-aos="fade-left" data-aos-duration="2000"><span>Разработка сайтов,</span> игр и
+            приложений</h1>
+          <p class="hero__description" data-aos="fade-left" data-aos-duration="2000"><span>Помогаю воплощать</span>
+            мечты в реальность</p>
+        </div>
+      </div>
+    </section>
 
-  <section class="skills">
-    <h2 class="skills__title">Что я могу</h2>
-    <ul class="skills__list">
-      <li class="skills__item">
-        <span class="skills__icon"></span>
-        <h3 class="skills__subtitle">Я умею писать валидный
-          и семмантически верный код
-          для вашего сайта или приложения</h3>
-        <p class="skills__description">Ваш сайт и приложение будут
-          верно работать, благодаря моей верстке</p>
-      </li>
-      <li class="skills__item">
-        <span class="skills__icon"></span>
-        <h3 class="skills__subtitle">Я умею создавать игры
-          и анимации с помощью JavaScript</h3>
-        <p class="skills__description">Я свободно владею языком JavaScript
-          и могу “оживить” ваш сайт и приложение</p>
-      </li>
-      <li class="skills__item">
-        <span class="skills__icon"></span>
-        <h3 class="skills__subtitle">Я умею создавать приложения
-          с помощью React</h3>
-        <p class="skills__description">Благодаря моим навыкам, ваш сайт
-          и приложение будут максимально
-          удобными в использовании</p>
-      </li>
-    </ul>
-  </section>
+    <section class="features" data-aos="zoom-in" data-aos-duration="1500">
+      <div class="wrapper">
+        <div class="features__content">
+          <h2 class="features__title" data-aos="zoom-in-up" data-aos-duration="1500">Почему вам стоит обратиться ко мне
+          </h2>
+          <ul class="features__list">
+            <li class="features__item" data-aos="zoom-in" data-aos-duration="2000">
+              <span class="features__icon"></span>
+              <h3 class="features__subtitle">Индивидуальный
+                подход</h3>
+              <p class="features__description">Каждый клиент <br>
+                для меня особенный.<br>
+                Я тщательно изучаю<br>
+                что ему необходимо, прежде,
+                чем приступить к работе.</p>
+            </li>
+            <li class="features__item" data-aos="zoom-in" data-aos-duration="2000">
+              <span class="features__icon"></span>
+              <h3 class="features__subtitle">Разумные<br>
+                цены</h3>
+              <p class="features__description">Я предлагаю выгодные цены<br>
+                за безупречное выполнение<br>
+                работы и соблюдение сроков.</p>
+            </li>
+            <li class="features__item" data-aos="zoom-in" data-aos-duration="2000">
+              <span class="features__icon"></span>
+              <h3 class="features__subtitle">Отличный
+                результат!</h3>
+              <p class="features__description"><span>Я внимательно</span> работаю
+                над каждым проектом.
+                Я очень люблю свою работу,
+                поэтому вас обрадует результат
+                проделанной работы.</p>
+            </li>
+          </ul>
+          <button class="btn features__btn" data-aos="zoom-in-down" data-aos-duration="1500">Получить
+            консультацию</button>
+        </div>
+      </div>
+    </section>
 
-  <section class="form">
-    <h2 class="form__title">Есть вопросы?</h2>
-    <span class="form__icon"></span>
-    <p class="form__description">Заполните, пожалуйста, эту форму
-      и я обязательно свяжусь с вами</p>
-    <form class="form__content">
-      <input type="text" class="form__input" placeholder="Имя и фамилия">
-      <input type="tel" class="form__input" placeholder="Номер телефона">
-      <input type="email" class="form__input" placeholder="e-mail">
-      <button class="btn form__btn" type="submit">Отправить </button>
-    </form>
-  </section>
+    <section class="skills" data-aos="zoom-in" data-aos-duration="1500">
+      <div class="wrapper">
+        <h2 class="skills__title" data-aos="zoom-in-up" data-aos-duration="1500">Что я могу</h2>
+        <ul class="skills__list">
+          <li class="skills__item" id="item1">
+            <span class="skills__icon" data-aos="fade-left" data-aos-duration="2000"></span>
+            <div class="skills__content">
+              <h3 class="skills__subtitle" data-aos="zoom-in" data-aos-duration="1500">Я умею писать валидный<br>
+                и семмантически верный <span>код
+                  для вашего сайта или приложения</span></h3>
+              <p class="skills__description" data-aos="zoom-in-down" data-aos-duration="1500">Ваш сайт и приложение
+                будут
+                верно работать, благодаря моей верстке</p>
+            </div>
+          </li>
+          <li class="skills__item skills__hidden" id="item2">
+            <span class="skills__icon" data-aos="fade-left" data-aos-duration="2000"></span>
+            <div class="skills__content">
+              <h3 class="skills__subtitle" data-aos="zoom-in" data-aos-duration="1500">Я умею создавать игры<br>
+                и анимации с помощью JavaScript</h3>
+              <p class="skills__description" data-aos="zoom-in-down" data-aos-duration="1500">Я свободно владею языком
+                JavaScript<br>
+                и могу “оживить” ваш сайт и приложение</p>
+            </div>
+          </li>
+          <li class="skills__item skills__hidden" id="item3">
+            <span class="skills__icon" data-aos="fade-left" data-aos-duration="2000"></span>
+            <div class="skills__content">
+              <h3 class="skills__subtitle" data-aos="zoom-in" data-aos-duration="1500">Я умею создавать приложения<br>
+                с помощью React</h3>
+              <p class="skills__description" data-aos="zoom-in-down" data-aos-duration="1500">Благодаря моим навыкам,
+                ваш сайт<br>
+                и приложение будут максимально<br>
+                удобными в использовании</p>
+            </div>
+          </li>
+        </ul>
+        <div class="skill__btns">
+          <span class="active" id="btn1"></span>
+          <span id="btn2"></span>
+          <span id="btn3"></span>
+        </div>
+      </div>
+    </section>
 
-  <footer class="footer">
-    <p class="footer__text">Меня можно найти в социальных сетях:</p>
-    <ul class="footer__list">
-      <li class="footer__item"><a href="#" class="footer__link linkedin"></a></li>
-      <li class="footer__item"><a href="#" class="footer__link instagram"></a></li>
-      <li class="footer__item"><a href="#" class="footer__link facebook"></a></li>
-    </ul>
-    <p class="footer__copyrights">2020 © WebHero School</p>
-  </footer>
+    <section class="form" data-aos="zoom-in" data-aos-duration="1500">
+      <h2 class="form__title" data-aos="zoom-in-up" data-aos-duration="1500">Есть вопросы?</h2>
+      <span class="form__icon" data-aos="zoom-in" data-aos-duration="1500"></span>
+      <p class="form__description" data-aos="zoom-in" data-aos-duration="1500">Заполните, пожалуйста, эту форму
+        и я обязательно свяжусь с вами</p>
+      <form class="form__content" data-aos="fade-left" data-aos-duration="1500">
+        <input type="text" class="form__input" placeholder="Имя и фамилия">
+        <input type="tel" class="form__input" placeholder="Номер телефона">
+        <input type="email" class="form__input" placeholder="e-mail">
+        <button class="btn form__btn" type="submit">Отправить </button>
+      </form>
+    </section>
+
+    <footer class="footer" data-aos="zoom-in" data-aos-duration="1500">
+      <p class="footer__text"><span>Меня можно</span> найти в социальных сетях:</p>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__link linkedin"></a></li>
+        <li class="footer__item"><a href="#" class="footer__link instagram"></a></li>
+        <li class="footer__item"><a href="#" class="footer__link facebook"></a></li>
+      </ul>
+      <p class="footer__copyrights">2020 © WebHero School</p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
